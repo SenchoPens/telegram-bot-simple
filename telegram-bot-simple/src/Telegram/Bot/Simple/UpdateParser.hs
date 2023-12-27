@@ -4,6 +4,7 @@
 module Telegram.Bot.Simple.UpdateParser where
 
 import           Control.Applicative
+import           Control.Monad        ((>=>))
 import           Control.Monad.Reader
 #if defined(MIN_VERSION_GLASGOW_HASKELL)
 #if MIN_VERSION_GLASGOW_HASKELL(8,6,2,0)
